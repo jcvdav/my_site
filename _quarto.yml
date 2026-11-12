@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs # You will need to add this line
+
+website:
+  title: "my_site"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
